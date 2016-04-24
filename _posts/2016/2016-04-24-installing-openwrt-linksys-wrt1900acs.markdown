@@ -21,6 +21,8 @@ So, here are the steps I followed to get my router up and running with OpenWRT..
 
     Power up the router and connect to it via cable. This is a more reliable connection for transmitting something as important as a firmware image and you may well need a cable connection to access it after rebooting. Access the Linksys admin interface at [http://192.168.1.1](http://192.168.1.1).
 
+    <span class="image fit">![Linksys login page](/images/fulls/OpenWRT-Linksys-1.png)</span>
+
     It may also be worth verifying that you can connect out to the internet at this point, as my Virgin Media Super Hub decided that it didn't like me disconnecting one router and connecting another and it needed to be turned off and on again before it would allow any outbound communication from the new device. This caused me a stupid amount of wasted time trying to figure out what had happened after I flashed the firmware and discovered that I couldn't talk to the outside world or install any packages!
 
 3. Flash firmware & reboot
@@ -33,6 +35,8 @@ So, here are the steps I followed to get my router up and running with OpenWRT..
 
 4. SSH to router and set a root password
 
+    <span class="image fit">![Linksys login page](/images/fulls/OpenWRT-Linksys-6.png)</span>
+
     The first thing we should do is set a root password... Our router is not very secure without one! Connect to the router with `ssh root@192.168.1.1`. Then set a [strong password](https://open.buffer.com/creating-a-secure-password/) for the root user by running the passwd command.
 
 6. Fix the 2.4GHz network
@@ -42,6 +46,8 @@ So, here are the steps I followed to get my router up and running with OpenWRT..
 7. Install LuCI
 
     As mentioned on the hardware page, some builds do not include the LuCI web GUI and this was the case for me. This was easily rectified by running `opkg update` followed by `opkg install luci`. After that I could access LuCI by browsing to [http://192.168.1.1](http://192.168.1.1) from my machine. Use the same root password as you set in step 4 to log in.
+
+    <span class="image fit">![Linksys login page](/images/fulls/OpenWRT-Linksys-7.png)</span>
 
 8. Maximise wireless settings
 
