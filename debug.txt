@@ -1,0 +1,12 @@
+---
+layout: null
+sitemap:
+  exclude: true
+---
+site
+====
+{{ site | jsonify }}
+
+jekyll
+======
+{{ jekyll | jsonify }}
