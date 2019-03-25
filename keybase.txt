@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/davidforster
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://davidforster.com
+  * I am davidforster (https://keybase.io/davidforster) on keybase.
+  * I have a public key ASCjTng7Hfw6a_9U1fufmLu4gd1hzrD7mmv_w-UkwuxYoQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fe3b47519e1a767b3b022a714585bbde3b106e1fc1a9fe0bd755adf87435bcc50a",
+      "host": "keybase.io",
+      "kid": "0120a34e783b1dfc3a6bff54d5fb9f98bbb881dd61ceb0fb9a6bffc3e524c2ec58a10a",
+      "uid": "e764912a1e8798e406794fd11539a819",
+      "username": "davidforster"
+    },
+    "merkle_root": {
+      "ctime": 1553512713,
+      "hash": "042fed036b878dbe0f15a81a054ea80f82fff2c084bfb66b061c5b7de61dd2140201622e641b75583c180449db9d04f47796fff500870c19e7cfcae605d59a27",
+      "hash_meta": "ddb8d32a5ed2b4673675d95b6f0a44dd1e2e41bc8a1c16c716a5a71b36f204f2",
+      "seqno": 5016375
+    },
+    "service": {
+      "entropy": "GqR7n92HYqCQmuumAOHV+d+d",
+      "hostname": "davidforster.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1553512759,
+  "expire_in": 504576000,
+  "prev": "c4739ebd087ba18daf3abf661d2a14111bd440105a9f3d9974c66e5ab0d7ca3b",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgo054Ox38Omv/VNX7n5i7uIHdYc6w+5pr/8PlJMLsWKEKp3BheWxvYWTESpcCCsQgxHOevQh7oY2vOr9mHSoUERvUQBBanz2ZdMZuWrDXyjvEIDoBzPLK/ysWeGhDvroTtQj2v6vw2r+ZwTK3CKQLPBWHAgHCo3NpZ8RAwaC/cCKQvXWPO6nzcB4iuo9Zgg2Gnk8NAtlaFNTnjjuXvHfei4sKsgHbXxEb+8pv6/WaKN2s77un7qKElAlDC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDefDELEjDTQgcA/9Qv73NomMzOVmJ2+L/DO1z+4jQtjo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/davidforster
+
+==================================================================
